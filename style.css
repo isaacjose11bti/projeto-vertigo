@@ -4,8 +4,13 @@
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
-
 header {
     background-image: url(./imagens/img.svg);
     background-size: cover;
+}
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
