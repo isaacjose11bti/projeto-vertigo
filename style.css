@@ -10,6 +10,7 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3ad7;
+    -light-purple: #9F67FF;
 }
 
 header {
@@ -111,7 +112,10 @@ main {
     .bg-desktop {
         display: none;
     }
-
+    .login button:hover {
+        background: var(--light-purple);
+        transition: 0.3s;
+    }
 @media(min-width: 1000px) {
     body {
         display: flex;
@@ -143,5 +147,15 @@ main {
     .bg-desktop {
         display: block;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .descricao h1 {
+        font-size: 2.25rem;
+    }
+
+    .descricao p {
+        font-size: 1rem;
     }
 }
