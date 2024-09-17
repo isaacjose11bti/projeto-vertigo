@@ -85,12 +85,26 @@ main {
 .login button {
     margin-top: 2.2rem;
     padding-block: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-block: 1rem;
     width: 100%;
     background-color: var(--purple);
     border: none;
     border-radius: 0.4rem;
+    border-radius: 0,25rem;
 
     font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--white);
+}
+
+.login > p {
+    color: var(--gray-600);
+}
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
 }
